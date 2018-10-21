@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/login.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <title></title>
+</head>
+<body>
+<div class="content">
+    <img src="img/login-logo.jpg"/>
+    <div class="main">
+        <div class="left">
+            <form action="user/login" method="post">
+                <h2>要运动、用咕咚</h2>
+                <table cellspacing="10px">
+                    <tr>
+                        <td>用户名</td>
+                        <td><input type="text" placeholder="用户名" name="uname"/></td>
+                    </tr>
+                    <tr>
+                        <td>密码</td>
+                        <td><input type="password" name="pwd"/></td>
+                    </tr>
+                </table>
+                <p><input type="checkbox" checked/> 记住我 | <a href="#">忘记密码？</a>
+                </p>
+                <input type="button" value="登录" class="btn" name="login"/>
+                <input type="button" value="注册" class="btn" name="register"/>
+            </form>
+        </div>
+        <div class="right">
+            <p>合作网站帐号登录</p>
+            <div><img src="img/sina.png"/><a href="https://api.weibo.com/oauth2/authorize?client_id=3268192314&redirect_uri=https%3A%2F%2Fsso.codoon.com%2Foauth%2Fsina2&response_type=code">新浪登录</a></div>
+            <div><img src="img/weixin.png"/><a href="https://open.weixin.qq.com/connect/qrconnect?appid=wx90c52f9a6e47f296&redirect_uri=https%3A%2F%2Fsso.codoon.com%2Foauth%2Fwx_web&response_type=code&scope=snsapi_login&self_redirect=true#wechat_redirect">微信登录</a></div>
+            <p><img src="img/qq2.png"/><a href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&client_id=100302037&redirect_uri=https%3A%2F%2Fsso.codoon.com%2Foauth%2Fqq2&response_type=code&scope=get_user_info%2Cadd_share">QQ登录</a></p>
+        </div>
+    </div>
+</div>
+<iframe src="footer.html" frameborder="0" scrolling="no" id="footer"></iframe>
+<script src="js/common.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>

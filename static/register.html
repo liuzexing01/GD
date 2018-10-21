@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/register.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <title></title>
+</head>
+<body>
+<div class="content">
+    <img src="img/login-logo.jpg"/>
+    <div class="main">
+        <form action="user/login" method="post">
+            <h2>要运动、用咕咚</h2>
+            <table cellspacing="10px">
+                <tr>
+                    <td>用户名</td>
+                    <td><input type="text" name="uname" placeholder="4-8位数字、字母或_的用户名"/></td>
+                    <td><div></div></td>
+                </tr>
+                <tr>
+                    <td>手机</td>
+                    <td><input type="text" name="phone" placeholder="手机"/></td>
+                    <td><div></div></td>
+                </tr>
+                <tr>
+                    <td>邮箱</td>
+                    <td><input type="text" name="email" placeholder="邮箱"/></td>
+                    <td><div></div></td>
+                </tr>
+                <tr>
+                    <td>密码</td>
+                    <td><input type="password" name="pwd" placeholder="6-8位数字、字母或_的密码"/></td>
+                    <td><div></div></td>
+                </tr>
+                <tr>
+                    <td>确认密码</td>
+                    <td><input type="password" name="pwdRe"/></td>
+                    <td><div> </div></td>
+                </tr>
+            </table>
+            <input type="button" value="注册" name="button" class="btn"/>
+        </form>
+    </div>
+</div>
+<iframe src="./footer.html" frameborder="0" scrolling="no" id="footer"></iframe>
+<script src="js/common.js"></script>
+<script src="js/register.js"></script>
+</body>
+</html>

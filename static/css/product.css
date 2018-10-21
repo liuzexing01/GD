@@ -1,0 +1,408 @@
+#fenye1{
+    width:100%;
+    height:800px;
+}
+
+#fenye2,#fenye3,#fenye4{
+    width:960px;
+    height:900px;
+    position:relative;
+    margin:0 auto;
+    text-align: center;
+}
+#fenye1{
+    height:800px;
+    background:#d4d5da;
+    text-align: center;
+}
+#fenye1 img{
+    margin-top:100px;
+}
+#fenye2{
+    background: url(../img/map-bg.cbc4d.png) no-repeat 50%;
+}
+.data h2{
+    padding-top:85px;
+    font-size: 40px;
+    color: #28344a;
+    margin-bottom: 25px;
+}
+.data p{
+    color: #96999d;
+    font-size: 16px;
+}
+#fenye2 .data>ul{
+    list-style: none;
+    text-align: center;
+    margin: 25px auto 0;
+    width: 216px;
+}
+#fenye2 ul:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+#fenye2 div.data>ul>li{
+    float: left;
+    height: 40px;
+    width:40px;
+    margin: 0 16px;
+    position:relative;
+}
+#fenye2 div.data>ul>li>img{
+    position: absolute;
+    left:0;
+    opacity: 1;
+    transition: all .5s linear;
+}
+#fenye2 div.path{
+    width:600px;
+    height:200px ;
+    margin:70px 180px 20px;
+}
+#fenye2 div.data_pic{
+    width:980px;
+    height:268px;
+    overflow: hidden;
+}
+#fenye2 div.data_pic>ul>li{
+    list-style: none;
+    float: left;
+    width:324px;
+    height:264px;
+    position: relative;
+    overflow: hidden;
+}
+#fenye2 div.data_pic>ul>li>div{
+    position:absolute;
+    top:2px;
+    left:2px;
+}
+#fenye2 div.data_pic>ul>li>div>div:nth-child(1){
+    width:324px;
+    height:264px;
+}
+#fenye2 div.data_pic>ul>li>div>div:nth-child(2){
+    position:absolute;
+    width:0;
+    height: 264px;
+    overflow: hidden;
+    top:0;
+    left:0;
+    transition:all .5s linear;
+}
+#fenye2 div.data_pic>ul>li:nth-child(2)>div:nth-child(2)>div{
+    width:0;
+    height:18px;
+    position: absolute;
+    left:20px;
+    text-align: left;
+    overflow: hidden;
+    transition: all .5s linear;
+    color: #90a1b0;
+}
+#fenye2 div.data_pic>ul>li:nth-child(2)>div:nth-child(2)>div span:nth-child(1){
+    margin:0 15px ;
+    display: inline-block;
+    line-height: 18px;
+    width:16px;
+    height: 16px;
+    text-align: center;
+}
+#fenye2 div.data_pic>ul>li:nth-child(2)>div:nth-child(2)>div span:nth-child(2){
+    display: inline-block;
+    width: 80px;
+    height:15px;
+    border-radius: 3px;
+    background:#aae6cb;
+ }
+#fenye2 div.data_pic>ul>li:nth-child(2)>div:nth-child(2)>div:nth-child(1) span:nth-child(2){
+    width: 100px;
+}
+#fenye2 div.data_pic>ul>li:nth-child(2)>div:nth-child(2)>div:nth-child(2) span:nth-child(2){
+    width: 80px;
+}
+#fenye2 div.data_pic>ul>li:nth-child(2)>div:nth-child(2)>div:nth-child(3) span:nth-child(2){
+    width: 90px;
+    background:#48c18b;
+}
+#fenye2 div.data_pic>ul>li:nth-child(2)>div:nth-child(2)>div:nth-child(3) span:nth-child(1){
+    background:#48c18b;
+    color:#6c6c6c;
+    border-radius: 50%;
+}
+#fenye2 div.data_pic>ul>li:nth-child(2)>div:nth-child(2)>div:nth-child(4) span:nth-child(2){
+    width: 60px;
+}
+#fenye2 div.data_pic>ul>li:nth-child(2)>div:nth-child(2)>div:nth-child(5) span:nth-child(2){
+    width: 100px;
+}
+#fenye2 div.data_pic>ul>li:nth-child(2)>div:nth-child(2)>div:nth-child(6) span:nth-child(2){
+    width: 80px;
+}
+
+
+#fenye3 div.data{
+    margin-bottom: 90px;
+}
+#fenye3 div.pic div.pic_left{
+    float:left;
+    width:473px;
+    height:523px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#fenye3 div.pic div.pic_right{
+    float:left;
+    width:381px;
+    height:588px;
+    margin-right: 20px;
+}
+.bg{
+    width:100%;
+    height:900px;
+    background: url("../img/map-background.f32de.png") repeat;
+}
+
+
+#fenye4 .data h2{
+    color:white;
+}
+#fenye4 .data ul{
+    margin:20px auto 0;
+    width:300px;
+    height:40px;
+}
+#fenye4 .data ul li{
+    float: left;
+    width:50px;
+    height:40px;
+    line-height: 40px;
+    margin:auto 25px;
+    list-style: none;
+    color:#96999d;
+}
+.active{
+    color:white;
+    background:url("../img/codoon-map-ul-bg.35e44.png") no-repeat 2px 6px;
+}
+#fenye4 .pic4{
+    margin-top:50px;
+    width:960px;
+    height: 500px;
+}
+#fenye4 .map{
+    float:left;
+    width:650px;
+    height: 450px;
+}
+#fenye4 .map>div{
+    width:100%;
+    height:100%;
+    margin-top:50px;
+		position:relative;
+}
+#fenye4 .map>div:nth-child(1){
+    background: url("../img/map1.png") no-repeat;
+    background-size: contain;
+}
+#fenye4 .map>div:nth-child(2){
+    background: url("../img/map2.png") no-repeat;
+    background-size: contain;
+}
+#fenye4 .map>div:nth-child(3){
+    background: url("../img/map3.png") no-repeat;
+    background-size: contain;
+}
+#fenye4 .map>div>div{
+    padding-top:5px;
+    transition: all .5s linear;
+}
+
+#fenye4 .map div:nth-child(1) div,#fenye4 .map div:nth-child(2) div,#fenye4 .map div:nth-child(3) div{
+    background: url("../img/market-ding.051ee.png") no-repeat;
+    width:46px;
+    height:56px;
+    position:absolute;
+}
+#fenye4 .map>div:nth-child(1)>div:nth-child(1){
+    left:50px;
+    top:40px;
+}
+#fenye4 .map>div:nth-child(1)>div:nth-child(2){
+    left:350px;
+    top:100px;
+}
+#fenye4 .map>div:nth-child(1)>div:nth-child(3){
+    left:180px;
+    top:160px;
+}
+#fenye4 .map>div:nth-child(1)>div:nth-child(4){
+    left:450px;
+    top:230px;
+}
+#fenye4 .map>div:nth-child(2)>div:nth-child(1){
+     left:30px;
+     top:140px;
+ }
+#fenye4 .map>div:nth-child(2)>div:nth-child(2){
+    left:350px;
+    top:160px;
+}
+#fenye4 .map>div:nth-child(2)>div:nth-child(3){
+    left:180px;
+    top:50px;
+}
+#fenye4 .map>div:nth-child(2)>div:nth-child(4){
+    left:450px;
+    top:250px;
+}
+#fenye4 .map>div:nth-child(3)>div:nth-child(1){
+    left:50px;
+    top:90px;
+}
+#fenye4 .map>div:nth-child(3)>div:nth-child(2){
+    left:300px;
+    top:100px;
+}
+#fenye4 .map>div:nth-child(3)>div:nth-child(3){
+    left:180px;
+    top:260px;
+}
+#fenye4 .map>div:nth-child(3)>div:nth-child(4){
+    left:480px;
+    top:50px;
+}
+#fenye4 .person{
+    float:left;
+    width: 300px;
+    height:500px;
+}
+#fenye4 .person div{
+    margin:40px 0 0 30px;
+    height:56px;
+    width:300px;
+    line-height: 56px;
+    padding-left: 60px;
+    text-align: left;
+    color:white;
+    font-size: 14px;
+    background:url("../img/market-run3.3c486.png") no-repeat;
+    transition: all .5s linear;
+}
+
+#fenye5 .data{
+    width:960px;
+    height:240px;
+    position:relative;
+    margin:0 auto;
+    text-align: center;
+}
+#fenye5 .pic5{
+    width:100%;
+    height: 540px;;
+    position: relative;
+    margin-bottom: 50px;
+    z-index: 10;
+}
+#fenye5 .pic5>div{
+    position:absolute;
+    overflow: hidden;
+}
+#fenye5 .pic5>div:nth-child(1){
+    background:url("../img/2a.473a1.jpg") no-repeat 50%;
+    background-size: cover;
+    width: 19.921875%;
+    height: 66.6666666667%;
+    left: 0;
+    top: 0;
+}
+#fenye5 .pic5>div:nth-child(2){
+    background:url("../img/7a.778cd.jpg") no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 40.7407407407%;
+    top: 0;
+    left: 20.154538557%;
+}
+#fenye5 .pic5>div:nth-child(3){
+    background:url("../img/11a.b3032.jpg") no-repeat;
+    background-size: cover;
+    width: 37.890625%;
+    height: 45%;
+    top: 0;
+    left: 45.422977114%;
+}
+#fenye5 .pic5>div:nth-child(4){
+    background:url("../img/15a.69150.jpg") no-repeat;
+    background-size: cover;
+    width: 16.40625%;
+    height: 45%;
+    top: 0;
+    right: 0;
+}
+#fenye5 .pic5>div:nth-child(5){
+     background:url("../img/3a.9d9b9.jpg") no-repeat;
+     background-size: cover;
+    width: 19.921875%;
+    height: 32.5925925926%;
+    left: 0;
+    bottom: 0;
+ }
+#fenye5 .pic5>div:nth-child(6){
+    background:url("../img/8a.e2b1f.jpg") no-repeat 50%;
+    background-size: cover;
+    width: 25%;
+    height: 58.3333333333%;
+    bottom: 0;
+    left: 20.154538557%;
+}
+#fenye5 .pic5>div:nth-child(7){
+    background:url("../img/14a.14056.jpg") no-repeat;
+    background-size: cover;
+    width: 22.96875%;
+    height: 54.2592592593%;
+    bottom: 0;
+    left: 45.422977114%;
+}
+#fenye5 .pic5>div:nth-child(8){
+    background:url("../img/16a.c3ad1.jpg") no-repeat;
+    background-size: cover;
+    width: 31.40625%;
+    height: 54.2592592593%;
+    bottom: 0;
+    right: 0;
+}
+#fenye5 .pic5>div>div:nth-child(1){
+    background: rgba(41,50,69,.6);
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    transition: all .3s linear;
+}
+#fenye5 .pic5>div>div:nth-child(2){
+     width: 100%;
+     height:50px;
+     position:absolute;
+     bottom:-50px;
+     background: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
+     color:white;
+     line-height: 50px;
+     transition: all .5s linear;
+ }
+#fenye5 .pic5>div>div:nth-child(2) span{
+    position: absolute;
+    top:0;
+    height:50px;
+    left:50px;
+    line-height: 50px;
+}
+#fenye5 .pic5>div>div:nth-child(2) img{
+    margin-top:7px;
+}
+#fenye5 .pic5>div:hover>div:nth-child(1){
+    display: none;
+}
+#fenye5 .pic5>div:hover>div:nth-child(2){
+    bottom:0;
+}

@@ -1,0 +1,70 @@
+body{
+    background: #f2f3f4;
+}
+a{
+    text-decoration: none;
+    color:#699000;
+}
+.content{
+    width:860px;
+    margin:0 auto;
+}
+.main{
+    width:860px;
+    margin:auto;
+    height:400px;
+}
+.content img{
+    padding-top:50px;
+    height:110px;
+    width:190px;
+    margin-bottom: 30px;
+}
+.main h2{
+    font-weight: inherit;
+    padding-bottom: 15px;
+    text-align:center;
+}
+.main table{
+    margin-left: 250px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+}
+.main table input{
+    height:35px;
+    width:220px;
+    padding-left:10px;
+    margin-left:10px;
+    border-radius: 5px;
+    box-shadow:1px 1px 1px #e6e6e6 inset;
+    outline: none;
+}
+
+.main form>input{
+    display: block;
+    padding:8px 25px;
+    font-size:16px;
+    background:#7fa731;
+    color:white;
+    border-radius:8px;
+    margin:auto;
+    width:100px;
+    height: 40px;
+    outline: none;
+}
+#footer{
+    border-top:5px solid #7fa731;
+}
+.success{
+    background:url("../img/gou.c78f5.png") no-repeat;
+    padding-left: 20px;
+    background-position: left center;
+    height:20px;
+}
+.fail{
+    background:url("../img/wrong.png") no-repeat;
+    padding-left: 20px;
+    height:20px;
+    color: red;
+}

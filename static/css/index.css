@@ -1,0 +1,259 @@
+#fenye1,#fenye2,#fenye3,#fenye4{
+    width:100%;
+    position:relative;
+}
+#fenye1>img{
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:1;
+    transition:all 1s linear;
+}
+#fenye1>div{
+    position: absolute;
+    width:520px;
+    height:430px;
+    top:30%;
+    left:15%;
+}
+#fenye1 div>img{
+    position: absolute;
+    top:0;
+    left:15px;
+}
+#fenye1>div>div{
+    position: absolute;
+    width: 400px;
+    height: 115px;
+    bottom: 0;
+    left: 100px;
+}
+#fenye1 div div a{
+    text-decoration: none;
+    background:#00bc71;
+    display:inline-block;
+    color:white;
+    width:165px;
+    height:48px;
+    line-height:48px;
+    text-align: center;
+    border-radius:24px;
+    margin-right:15px;
+}
+#fenye2,#fenye3,#fenye4{
+    height: 800px;
+}
+.inner_box{
+    position:relative;
+    width:960px;
+    margin:auto;
+    text-align: center;
+    color:#6f7073;
+}
+div.inner_box div.text p{
+    text-align: center;
+    margin:auto;
+}
+div.inner_box div.text a{
+    text-decoration: none;
+    display:block;
+    height:36px;
+    width:124px;
+    line-height: 36px;
+    text-align: center;
+    border:1px solid black;
+    border-radius: 18px;
+    color:#6f7073;
+    font-size: 14px;
+    margin:0 auto 96px;
+}
+#fenye2 .inner_box div.pic>div{
+    width:1344px;
+    height:343px;
+    position: relative;
+    left:-192px;
+}
+#fenye2 .inner_box div.pic{
+    width:960px;
+    height:343px;
+    overflow: hidden;
+}
+div.inner_box{
+    padding-top:100px;
+}
+#fenye2 .inner_box div.pic>div>div{
+    margin:25px 6px 0;
+    width: 180px;
+    height:318px;
+    position:absolute;
+    transition: all 1s linear;
+}
+#fenye2 .inner_box div.pic>div>div:nth-child(4){
+    width: 198px;
+    height:350px;
+}
+#fenye2 .inner_box div.pic>div>div img{
+    width:100%;
+    height:100%;
+}
+div.inner_box div.text h1{
+    color:#28344a;
+    margin-bottom:30px;
+}
+div.inner_box div.text p{
+    font-size: 14px;
+    margin:5px;
+}
+div.inner_box div.text a{
+    margin-top:40px;
+}
+#fenye2 .inner_box>div.phone{
+    width:256px;
+    height:486px;
+    position:absolute;
+    top:77.5%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+#fenye2 .inner_box>div.phone>img{
+    margin:0;
+    width:100%;
+    height:100%;
+}
+#fenye3 div.pic3>div:nth-child(1){
+    width:2790px;
+    height:310px;
+    position: relative;
+    left:-930px;
+    transition: all 1s linear;
+}
+#fenye3 div.pic3>div:nth-child(2){
+    width:310px;
+    height:310px;
+    position:absolute;
+    top:0;
+    left:308px;
+    background:radial-gradient(circle,rgba(0,0,0,.8),rgba(0,0,0,.1));
+    color:white;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 120px;
+}
+#fenye3 div.pic3>div:nth-child(2) a{
+    text-decoration: none;
+    display:block;
+    height:36px;
+    width:124px;
+    line-height: 36px;
+    text-align: center;
+    border:1px solid white;
+    border-radius: 10px;
+    color:white;
+    margin: 15px auto;
+}
+#fenye3 div.pic3{
+     width:930px;
+     height:310px;
+     overflow: hidden;
+     position:relative;
+ }
+#fenye3 .pic3>div>div{
+    width:310px;
+    height:310px;
+    display: inline-block;
+    position:absolute;
+    transition: all 1s linear;
+}
+#fenye3 img{
+     width:100%;
+     height:100%;
+ }
+#fenye4 .inner_box{
+    padding-top:75px;
+}
+#fenye4 .pic4{
+     margin-top:50px;
+     height:480px;
+ }
+#fenye4 div.pic4>div{
+     position: relative;
+     float: left;
+ }
+#fenye4 div.pic4>div:nth-child(1){
+    width:384px;
+    height:240px;
+}
+#fenye4 div.pic4>div>div{
+    width: 100%;
+    height:100%;
+    background-size: cover;
+}
+#fenye4 div.pic4>div:nth-child(1)>div{
+    background: url("../img/team_img1.8c5be.jpg") no-repeat;
+    background-size: cover;
+}
+#fenye4 div.pic4>div:nth-child(2){
+    width:576px;
+    height:240px;
+}
+#fenye4 div.pic4>div:nth-child(2)>div{
+    background: url("../img/team_img3.ee38b.jpg") no-repeat;
+    background-size: cover;
+}
+#fenye4 div.pic4>div:nth-child(3){
+    width:320px;
+    height:240px;
+}
+#fenye4 div.pic4>div:nth-child(3)>div{
+    background: url("../img/team_img2.47314.jpg") no-repeat;
+    background-size: cover;
+}
+#fenye4 div.pic4>div:nth-child(4){
+    width:320px;
+    height:240px;
+}
+#fenye4 div.pic4>div:nth-child(4)>div{
+    background: url("../img/team_img4.ea55c.jpg") no-repeat;
+    background-size: cover;
+}
+#fenye4 div.pic4>div:nth-child(5){
+    width:320px;
+    height:240px;
+}
+#fenye4 div.pic4>div:nth-child(5)>div{
+    background: url("../img/team_img5.dc2e0.jpg") no-repeat;
+    background-size: cover;
+}
+#fenye4 img{
+    width:100%;
+    height:100%;
+}
+#fenye4 div.pic4>div>div:hover{
+    transform: scale(1.2);
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 10;
+    transition: all .5s;
+}
+#fenye4 div.pic4>div>div>div{
+    position:absolute;
+    bottom: 0;
+    left:0;
+    width:100%;
+    height:65px;
+    background:linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
+    color:white;
+    display: none;
+    text-align: left;
+    font-size: 8px;
+    font-weight: bold;
+}
+#fenye4 div.pic4 div>div>div>p:nth-child(2){
+    font-size: 5px;
+    font-weight: lighter;
+}
+#fenye4 div.pic4>div>div:hover>div{
+    display:block;
+    transition: all .5s;
+}

@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+#footer{
+    background: #f2f4f6;
+    width:100%;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    color:#7e858b;
+    text-align: center;
+    font-size: 12px;
+    margin-top:8px;
+}
+a{
+     color:#7e858b;
+ }
+#footer ul{
+    list-style: none;
+    width:890px;
+    margin:0px auto 10px;
+}
+.clear:after{
+    display: block;
+    content: "";
+    clear:both;
+}
+#footer ul li{
+    float:left;
+    margin-left:63px;
+}
+#footer ul li a{
+    text-decoration: none;
+    font-size:16px;
+}
+#footer .company{
+     clear:both;
+     padding-bottom:10px;
+ }
+#footer .police{
+    font-size: 14px;
+    margin-top:10px;
+}
+#footer .police img{
+    margin-right:5px;
+}
+.weixing img{
+    margin:20px 20px 0;
+}
+.weixing{
+    position:relative;
+    margin:auto;
+    width:150px;
+}
+#erweima{
+    position:absolute;
+    left:15px;
+    bottom:60px;
+    opacity: 0;
+    transition: all 0.5s linear;
+}
+.weixing a:hover #erweima{
+    bottom:35px;
+    opacity: 1;
+}
+

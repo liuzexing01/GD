@@ -1,0 +1,98 @@
+body{
+    background: #f2f3f4;
+}
+a{
+    text-decoration: none;
+    color:#699000;
+}
+.content{
+    width:860px;
+    margin:0 auto;
+}
+.main{
+    width:860px;
+    margin:auto;
+    height:450px;
+}
+.content>img{
+    padding-top:50px;
+    height:110px;
+    width:190px;
+    margin-bottom: 30px;
+}
+.left{
+     width:60%;
+     float: left;
+     height:360px;
+     border-right:1px solid #a3b27a;
+ }
+.left h2{
+    font-weight: inherit;
+    padding-bottom: 15px;
+}
+.left table{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    margin-left:20px;
+}
+.left table input{
+    height:35px;
+    width:220px;
+    padding-left:10px;
+    margin-left:10px;
+    border-radius: 5px;
+    box-shadow:1px 1px 1px #e6e6e6 inset;
+    outline: none;
+}
+.left p{
+    padding:10px 70px 10px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.left .btn{
+    padding:8px 25px;
+    font-size:16px;
+    background:#7fa731;
+    color:white;
+    border-radius:8px;
+    margin-left:70px;
+    outline: none;
+}
+.right{
+    width:40%;
+    float: right;
+    padding:30px;
+    font-size:18px;
+    line-height: 30px;
+}
+.right a{
+    font-size:14px;
+    vertical-align:middle;
+}
+.right div{
+    display:inline-block;
+    width:120px;
+    height:40px;
+    vertical-align: middle;
+}
+.right img{
+    width:30px;
+    margin-right:10px;
+    vertical-align:middle;
+}
+.right p img{
+    padding:6px;
+}
+#footer{
+    border-top:5px solid #7fa731;
+}
+.hidden{
+    display: none;
+}
+.fail{
+    background:url("../img/wrong.png") no-repeat;
+    padding-left: 20px;
+    height:20px;
+    color: red;
+}
