@@ -59,6 +59,7 @@
     width:600px;
     height:200px ;
     margin:70px 180px 20px;
+    position:relative;
 }
 #fenye2 div.data_pic{
     width:980px;
@@ -405,4 +406,51 @@
 }
 #fenye5 .pic5>div:hover>div:nth-child(2){
     bottom:0;
+}
+.path1 {
+    stroke-dasharray: 1045;
+    stroke-dashoffset: 1;
+    animation: dash1 2s linear alternate;
+}
+@keyframes dash1 {
+    from {
+        stroke-dashoffset: 1045;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+.path2 {
+    stroke-dasharray: 1352;
+    stroke-dashoffset: 1;
+    animation: dash2 1.5s linear alternate;
+}
+
+@keyframes dash2 {
+    from {
+        stroke-dashoffset: 1352;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+.path3 {
+    stroke-dasharray: 2855;
+    stroke-dashoffset: 1;
+    animation: dash3 1.5s linear alternate;
+}
+
+@keyframes dash3 {
+    from {
+        stroke-dashoffset: 2855;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+.path div{
+    position:absolute;
+}
+.path div:nth-child(3){
+    margin-top:-50px;
 }

@@ -5,9 +5,16 @@
 (function(){
     var sports=document.querySelectorAll("#fenye2 .data ul li");
     var data_picLi=document.querySelectorAll("#fenye2 .data_pic>ul>li");
+    var path=document.querySelectorAll("#fenye2 .path>div");
     for(var i=0;i<data_picLi[1].children[1].children.length;i++){
         var div=data_picLi[1].children[1].children[i];
         div.style.top=`${25*i+80}px`
+    }
+    function path_hide(i){
+        for(var p of path){
+            p.style.display="none"
+        }
+        path[i].style.display="block"
     }
     function s_hide(){
         for(var sport of sports){
@@ -48,7 +55,8 @@
         },2000)
     }
     s_hide();
-    p_hide(0)
+    p_hide(0);
+    path_hide(0);
     sports[0].children[1].style.opacity=1;
     for(var sport of sports){
         sport.onmouseover = function () {
@@ -59,6 +67,7 @@
                     break;
             }
             p_hide(i)
+            path_hide(i);
         }
     }
 })();
